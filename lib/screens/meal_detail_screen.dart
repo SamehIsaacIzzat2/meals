@@ -14,7 +14,7 @@ class MealDetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Meal'),
-        actions: [],
+        actions: [], //.
       ),
       body: Container(
         child: Text(id),
